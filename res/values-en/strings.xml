@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 英文字符串 -->
+<resources>
+    <string name="app_name">LedServer0.2.7</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="search_no_result">Do Not Find Terminal</string>
+	
+	<!-- 显示屏名称 -->
+	<string name="screen_name">Name</string>
+	<string name="screen_password">Password</string>
+	<string name="screen_name_default_val">Terminal</string>
+	<string name="screen_password_default_val">12345</string>
+	<!-- 底部菜单 -->
+	<string name="home_page">HomePage</string>
+	<string name="sender_card">Sender Card</string>
+	<string name="receiver_card">Receiver Card</string>
+	<string name="connect_relation">Connect Relation</string>
+	<!-- 首页 -->
+	
+	<string name="search">Search</string>
+	<string name="online">online</string>
+	<string name="offline">offline</string>
+	<string name="not_connect">do not Connect</string>
+	<string name="terminal_not_specified">The terminal is not specified</string>
+	
+	<string name="screen_manager">Screen Management</string>
+	<string name="video_play_control">Video Player Management</string>
+	<string name="set_port_area">Net Port Area Setting</string>
+	<string name="search_server">Search Server</string>
+	<string name="select_upload_program">Select Program</string>
+	<string name="detect_sender_card">Detect Sender Card</string>
+	
+	<!-- 语言 -->
+	<string name="change_language">Language</string>
+	
+	
+	<!-- 发送卡参数 -->
+	<string name="x">X</string>
+	<string name="y">Y</string>
+	<string name="width">Width</string>
+	<string name="height">Height</string>
+	<string name="a_port">A Port</string>
+	<string name="b_port">B Port</string>
+	<string name="c_port">C Port</string>
+	<string name="d_port">D Port</string>
+	<string name="sender_type">Sender</string>
+	<string name="custom">Custom</string>
+	
+	<string name="bright">Brightness</string>
+	<string name="color_temp">Temperature</string>
+	<string name="switch_screen">Screen Switch</string>
+	<string name="auto_bright_adjust">Auto Bright Tune</string>
+	<string name="receiver_params_from_sender">Receiver Card Parameters From Send</string>
+	<string name="pass_switch">Over Switch</string>
+	
+	<string name="no_video_audio_output">无信号输入时禁止输出视频和音频</string>
+	<string name="forbid_div_hdmi_switch">禁止dvi/hdmi自动切换</string>
+	<string name="zero_delay">0延迟</string>
+	<string name="enable_dhcp">启用HDCP</string>
+	<string name="tenbit_flag">10bit位标志</string>
+	<string name="signal_input_type">信号输入类型</string>
+	    
+	<string name="sender_output">Output Frame Rate</string>
+	<string name="frame_by_frame">Every Frame</string>
+	<string name="frame_by_separate">Every Other Frame</string>
+	<string name="sender_resolution">Sender Card Resolution</string>
+	<string name="resolution">Resolution</string>
+	<string name="set">Set</string>
+	<string name="save">Save</string>
+	<string name="saved">Saved</string>
+	<string name="send">Send</string>
+	<string name="set_as_current_display_resolution">Set Resolution As Current Monitor</string>
+	<string name="test_mode">Test Mode</string>
+	<string name="tempeture">Termperature</string>
+	<string name="sender_dampness">Sending Card Humidity</string>
+	<string name="dvi_width">Active Width</string>
+	<string name="dvi_height">Active Height</string>
+	<string name="DVI_info">DVI Information</string>
+	<string name="frame_rate">Frame</string>
+	<string name="blank_time">Line Span</string>
+	<string name="clock_rate">Clock</string>
+	<string name="fetch">Read</string>
+	<string name="test_mode_type">Test Mode Type</string>
+	<string name="detect">Detect</string>
+	<string name="detect_sender">Detect Send Cards</string>
+	<string name="detect_sender_update">update</string>
+	<string name="sender_card_time">Sending Card Time</string>
+	<string name="sub_period_brightness_setting">Sub-Period Brightness Settings</string>
+	<string name="enable_sub_period_brightness_setting">Enable Sub-Period Brightness Adjustment</string>
+	<string name="save_to_receiver_cards">Save To Receiver Cards</string>
+	<string name="numb">Numb</string>
+	<string name="from">From</string>
+	<string name="to">To</string>
+	<!-- message -->
+	<string name="save_success">Save Fail</string>
+	<string name="save_fail">Save Successfully</string>
+	<string name="setting_success">Set Successfully</string>
+	<string name="setting_fail">Set Fail</string>
+	<string name="time_input_error">Time Input Error</string>
+	<string name="please_input_brightness">Please Input Brightness</string>
+	<string name="network_not_connected">Network Not Connected</string>
+	<string name="app_need_to_reboot">Application Need To Reboot</string>
+	<string name="connect_network">Please Connect To The NetWork</string>
+	<string name="fail_connect_to_server">Failed To Connect To Server</string>
+	<string name="detect_card_fail">Detect Fail</string>
+	<string name="detect_card_success">Detect Successfully</string>
+	<string name="please_select">Please Select</string>
+	<string name="please_input_wh">Please Input The Correct Width And Height</string>
+	
+	<!-- 节目上传 -->
+	<string name="upload_program">Upload Program</string>
+	<string name="see_upload_situation">Upload Center</string>
+	<string name="upload_center">Upload Center</string>
+	<string name="uploaded">Uploaded</string>
+	<string name="update">Update</string>
+	<string name="please_select_file">Please Select File</string>
+	<string name="upload_sucessful">Upload Scuessfully</string>
+	<string name="file_not_exist">File Not Exist</string>
+	<string name="file_zero_size">File Zero Size</string>
+	<string name="select_all">Select All</string>
+	<string name="cancel">Cancel</string>
+	<string name="have_select">Has Selected</string>
+	<string name="ge"></string>
+	<string name="pause">Pause</string>
+	<string name="has_paused">Has Paused</string>
+	<string name="continuee">Continuee</string>
+	<string name="delete">Delete</string>
+	<string name="waitting">Watting</string>
+	<string name="uploading">Uploading</string>
+	<string name="upload_fail">Upload Fail</string>
+	<string name="start_upload">Start Upload</string>
+	<string name="stop_upload">Stop Uploading</string>
+	
+	<!-- 发送卡 -->
+	<string name="send_cards">Sender</string>
+	<string name="ports">Port</string>
+	<string name="send_row_count">Row</string>
+	<string name="send_col_count">Column</string>
+	<string name="send_card">Sender Card</string>
+	<string name="port_number">Port</string>
+	<string name="link_path">Link</string>
+	<string name="smart_link">Smart Link</string>
+	<string name="advanced">Advanced</string>
+	<string name="save_to_rcv">Solid </string>
+	<string name="reset">Reset</string>
+	<string name="empty_card">Empty Card </string>
+	
+
+	<!-- 接收卡 -->
+	<string name="box_parameter">Box Parameters</string>
+	<string name="refresh">Refresh</string>
+	<string name="refresh_rate">Refresh Rate</string>
+	<string name="gray_level">Gray Level </string>
+	<string name="frequency">Frequency</string>
+	<string name="bright_percent">Bright Percent</string>
+	<string name="gray_mode">Gray Mode </string>
+	<string name="gamma_value">Gamma</string>
+	<string name="blanking_value">Blanking Value </string>
+	<string name="bri_level">Bri Levle</string>
+	<string name="lease_oe">Lease OE </string>
+	<!-- 节目 -->
+	<string name="program_manager">Program</string>
+	<string name="get_programs">Get All Programs</string>
+	<string name="from_usb_disk">From USB Disk</string>
+	<string name="from_sd_card">From SD Card</string>
+	<string name="from_internal_storage">From Internal Storage</string>
+	<string name="none">None</string>
+	<string name="onoff">OnOff</string>
+	<string name="on">On</string>
+	<string name="off">Off</string>
+	
+	    
+	<!-- 发送卡 -->    
+	<string name="display_mode">Display Mode</string>   
+	<string name="video_source">Video Source</string>   
+	    
+	<string-array name="sender_output">
+	    <item>Every Frame</item>
+	    <item>Every Other Frame</item>
+	</string-array>   
+	
+	<string-array name="test_mode">
+	    <item>Off</item>
+	    <item>Red</item>
+	    <item>Green</item>
+	    <item>Blue</item>
+	    <item>White</item>
+	    <item>HMoveWhite</item>
+	    <item>VMoveWhite</item>
+	    <item>BRMoveWhite</item>
+	    <item>TLMoveWhite</item>
+	    <item>DMoveWhite</item>
+	    <item>Gradient Red</item>
+	    <item>Gradient Green</item>
+	    <item>Gradient Blue</item>
+	    <item>Gradient White</item>
+	    <item>Black</item>
+	    <item>LOGO</item>
+	    <item>Red Gray Increased</item>
+	    <item>Green Gray Increased</item>
+	    <item>Blue Gray Increased</item>
+	    <item>White Gray Increased</item>
+	    <item>Black And White Switch</item>
+	    <item>Red,Green,Blue and White</item>
+	    <item>Automatic Cyde The Test Mode</item>
+	    
+	</string-array>   
+	
+	
+	<string-array name="resolution">
+		<item>Custom</item>
+	    <item>800*600</item>
+	    <item>1024*768</item>
+	    <item>1280*720</item>
+	    <item>1280*960</item>
+	    <item>1280*1024</item>
+	    <item>1366*768</item>
+	    <item>1440*900</item>
+	    <item>1440*1050</item>
+	    <item>1600*900</item>
+	    <item>1680*1050</item>
+	    <item>1920*1080</item>
+	    <item>2048*1024</item>
+	    
+	</string-array>   
+	
+	<string-array name="signal_input_type_arr">
+	 	<item>HDMI</item>
+	 	<item>DVI</item>
+	 	<item>Not Found</item>
+	</string-array>
+	    
+	
+	<!--  开关屏-->
+	<string-array name="on_off">
+	 	<item>On</item>
+	 	<item>Off</item>
+	</string-array>
+	<!--语言-->
+	<string-array name="language">
+	 	<item>简体中文</item>
+		<item>English</item>
+	</string-array>
+	<!-- 显示模式 -->
+	<string-array name="display_mode">
+	 	<item>Normal 2D</item>
+	 	<item>Three-Dimensional 3D</item>
+	</string-array>   
+	<!-- 帧率 -->  
+	<string-array name="frame_rate">
+	    <item>30</item>
+	    <item>50</item>
+	    <item>60</item>
+	</string-array>  
+	<!-- 视频来源 -->
+	<string-array name="video_source">
+	 	<item>HDMI</item>
+	 	<item>DVI</item>
+	 	<item>C1S</item>
+	</string-array>  
+	
+	<!-- port -->
+	<string-array name="ports">
+	 	<item>A口</item>
+	 	<item>B口</item>
+	 	<item>C口</item>
+	 	<item>D口</item>
+	</string-array> 
+	
+	<!-- port -->
+	<string-array name="smart_link">
+	 	<item>Yes</item>
+	 	<item>No</item>
+	</string-array>     
+</resources>

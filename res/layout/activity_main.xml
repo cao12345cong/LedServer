@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:stretchColumns="1" >
+
+        <TableRow >
+
+            <TextView
+                android:id="@+id/ledName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/screen_name" />
+
+            <EditText
+                android:id="@+id/etLedName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:ems="10" />
+        </TableRow>
+
+        <TableRow android:layout_marginTop="10dp" >
+
+            <TextView
+                android:id="@+id/tv_Password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/screen_password" />
+
+            <EditText
+                android:id="@+id/et_password"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:ems="10"
+                android:password="true" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/tv_website"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/tv_version_code"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:visibility="gone" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:onClick="doClick"
+        android:text="Detect Sender"
+        android:visibility="gone" />
+
+</LinearLayout>

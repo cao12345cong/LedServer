@@ -1,0 +1,27 @@
+0.2.7 version 111
+
+
+0.2.5 version 101 
+1.客户端和服务端增加TCP轮询查找服务端的功能
+2.添加逐帧和隔帧的调整功能
+
+
+0.2.4 version 4
+1.删除节目
+
+
+0.2.3 version 3
+1.修改了TCP的IO流类型，用BufferedReader和PrintWriter代替DataInputStream和DataOutputStream,
+     为了能同时满足IOS，VC，java三种语言
+
+0.2.2
+1.增加了LEDvsion控制网口，亮度曲线
+
+
+
+
+0.2.1
+
+1.修复了了U盘设置控制面积不灵的bug
+
+2.色温调节已100为单位

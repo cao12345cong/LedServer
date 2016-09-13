@@ -1,0 +1,200 @@
+/* CSS Document */
+
+/* 通用默认样式-------------------------------------- */
+*{ padding:0; margin:0}
+ul,li{list-style-type: none;}
+/*basic*/ 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+    font-size: 1em;
+} 
+.wrap{margin:0 auto; position:relative;}
+.main{margin-top:10px; padding-left:10px}
+.content{margin-top:10px auto; }
+
+#navigation {
+    margin: 0;
+    background-color: #92d109;
+    color: white;
+    background-image: url(/mnt/sdcard/ledserver/img/navbar.png);
+    background-repeat: repeat-x;
+    font-size: 1em;
+    letter-spacing: -0.2pt;
+}
+#navigation ul {
+    margin: 0;
+    padding: 0;
+    padding-left: 1em;
+    min-height: 32px;
+    line-height: 32px;
+	
+	
+}
+
+#navigation li {
+    display: inline;
+    list-style-type: none;
+    padding-right: 0.5em;
+    margin: 0;
+	color:#FFFFFF;
+	line-height: 32px;
+}
+
+#video{
+}
+
+#video ul{
+ margin: 0;
+    padding: 0; padding-right:10px
+    
+}
+
+#video ul li{
+
+    list-style-type: none;
+   	
+    margin: 0; height:30px; line-height:30px; display:block;
+	border-bottom: 1px solid #babdb6;
+}
+
+h1 {font-size: 1.2em; letter-spacing: 1px; font-weight: bold; height:30px; line-height:30px; margin-bottom:10px; margin-top:10px}
+h2 {font-size: 1.1em; font-weight: bold; margin-top: 3em;}
+h3 {font-size: 1em; }
+h4 {font-variant: small-caps; }
+
+a {
+    text-decoration: none;
+    color: #4e9a06;
+}
+a:hover,
+a.selected {
+    color: #ec2c07;
+}
+
+#navigation a {
+    color: #ffffff;
+    padding: 5px;
+}
+
+#navigation a:hover,
+#navigation a.selected {
+    color: #fff;
+    background-color: #df5538;
+    border: 1px solid #ec2c07;
+    padding: 4px;
+}
+
+#footer {
+    clear: both;
+    text-align: left;
+    color: #babdb6;
+    padding: 1em;
+    /*width: 100%;*/
+	
+}
+
+form{
+margin-top:10dp;
+margin-bottom:10dp;
+}
+input{
+height:30px;
+margin-top:5px;
+margin-left:5dp;
+
+font-size:12px;
+}
+p{
+height:30px;
+margin-top:5px;
+margin-left:5dp;
+
+}
+.slideItem{
+	height:30px;  margin-bottom:15px
+}
+.slideName{ float:left; height:30px; width:100px; line-height:30px; margin-right:10px}
+
+.slider{
+	left:0; width:10px; height:30px; background:url(/mnt/sdcard/ledserver/img/sliderbar.gif) center center no-repeat; position:relative
+}
+.slideBg{
+	height:30px; width:400px; background:url(/mnt/sdcard/ledserver/img/bar.gif) center repeat-x; float: left
+}
+.slideInfo{
+	width:100px;height:30px; float:left; line-height:30px; margin-left:10px
+}
+
+.select{ height:30px; margin-bottom:15px}
+
+.rgbBox{ margin-bottom:15px; height:120px}
+#switch,#program,#testmode,#language{ height:25px; line-height:25px;}
+#switch p,#program p,#testmode p,#language p{ width:100px; height:25px; line-height:25px; display:block; float:left; margin-top:0}
+#switch div,#program div,#testmode div,#language div,{ height:25px; width:400px; float:left; line-height:25px;}
+#switch select,#program select,#testmode select,#language select{width:400px}
+
+.btn{ height:30pd; width:200px; line-height:30px; margin-top:10px; margin-bottom:10px; background:url(/mnt/sdcard/ledserver/img/navbar.png) repeat; color:#FFFFFF; font-weight:bold}
+
+
+
+#sendernum,#portnum{ width:200px; height:30px; line-height:30px; float:left}
+#sendernum span,#portnum span{ display:block; float:left; width:80px}
+.addminus{ width:30px; line-height:30px; background:#999999; text-align:center; float:left; margin-right:10px; cursor:pointer; background: url(/mnt/sdcard/ledserver/img/navbar.png) repeat-x}
+#receivernum .input{width:40px; line-height:30px; text-align:center; float:left; margin-right:10px; margin-top:-3px}
+#receivernum{ height:30px; line-height:30px; clear:both}
+
+#receivernum span{ display:block; float:left; width:80px;}
+#receicer_show{ height:30px; line-height:30px;}
+#receicer_show ul{
+    margin: 0;
+    padding: 0;
+    padding-left: 1em;
+    min-height: 32px;
+    line-height: 32px;}
+#receicer_show ul li{display: inline;
+    list-style-type: none;
+    padding-right: 0.5em;
+	margin-left:10px;
+	float:left;
+	display:block;
+	}
+#receicer_show span{ display:block; line-height:30px; width:20px; float: left}
+#receicer_show div{ display:block; line-height:30px;float: left; margin:0}
+#receicer_show div input{ height:30px; line-height:30px; margin-top:-2px}
+#port{}
+#port table td{ width:50px; height:30px; line-height:30px; line-height:30px; text-align:center}
+.box{ height:30px; clear:both; margin-top:10px}
+#game_box{ clear:both; margin-top:10px; padding-top:10px}
+#game_box  td{ width:30px; height:30px; background:#0099FF; text-align:center; line-height:30px; color:#CCCCCC;}
+#mode{height:40px; clear:both; margin-top:10px; margin-bottom:10px }
+.modeitem{ height:40px; width:40px; cursor:pointer; background: #333333; color:#FFFFFF; float:left; margin-right:10px;}
+#mode_1{ background: #0066FF url(/mnt/sdcard/ledserver/img/bg_receiver_mode1.png) center center no-repeat}
+#mode_2{ background: #0066FF url(/mnt/sdcard/ledserver/img/bg_receiver_mode2.png) center center no-repeat}
+#mode_3{ background: #0066FF url(/mnt/sdcard/ledserver/img/bg_receiver_mode3.png) center center no-repeat}
+#mode_4{ background: #0066FF url(/mnt/sdcard/ledserver/img/bg_receiver_mode4.png) center center no-repeat}
+#mode_5{ background: #0066FF url(/mnt/sdcard/ledserver/img/bg_receiver_mode5.png) center center no-repeat}
+#mode_6{ background: #0066FF url(/mnt/sdcard/ledserver/img/bg_receiver_mode6.png) center center no-repeat}
+#mode_7{ background: #0066FF url(/mnt/sdcard/ledserver/img/bg_receiver_mode7.png) center center no-repeat}
+#mode_8{ background: #0066FF url(/mnt/sdcard/ledserver/img/bg_receiver_mode8.png) center center no-repeat}
+
+/*****sender Card*****/
+
+#resolution,#showmode,#videosource,#framerate,#dvi_width,#dvi_height,#temperture,#sender_card,#resolution_add{ height:25px; line-height:30px;}
+#resolution p,#showmode p,#videosource p,#framerate p,#dvi_width p,#dvi_height p,#temperture p,#sender_card p,#resolution_add p{ width:150px; height:25px; line-height:25px; display:block; float:left; margin-top:0}
+#resolution div,#showmode div,#videosource div,#framerate div,#dvi_width div,#dvi_height div,#temperture div,#sender_card div{ height:25px; width:400px; float:left; line-height:30px;}
+#resolution select,#showmode select,#videosource select{width:400px}
+#framerate input,#dvi_width input,#dvi_height input{ width:400px; height:25px}
+#resolution a,#sender_card a{width:150px; height:25px; line-height:25px; display:block; float:left; background:url(/mnt/sdcard/ledserver/img/navbar.png) repeat-x; margin-left:10px; color:#FFFFFF; text-align:center; font-size:12px; cursor:pointer}
+
+#resolution_add #input_res_x{width:25px; height:25px; text-align:center}
+#resolution_add #res_add_w{ height:25px; width:180px; float:left; line-height:25px; }
+#resolution_add #res_add_x{height:25px; width:40px; float:left; line-height:25px; text-align:center; }
+#resolution_add #res_add_h{height:25px; width:180px; float:left; line-height:25px; }
+#resolution_add #res_frame_rate{height:25px; width:150px; float:left; line-height:25px;margin-left:10px;}
+#resolution_add #res_frame_rate a{height:25px; width:50px; float:left; line-height:25px; display:block; font-size:12px; color:#000000}
+#resolution_add #res_frame_rate p{height:25px; width:90px; float:left; line-height:25px;margin-left:10px; display:block}
+#resolution_add #res_frame_rate p select{height:25px; width:90px;}
+#resolution_add #res_add_w input{ width:180px;height:25px}
+#resolution_add #res_add_h input{ width:180px;height:25px}
